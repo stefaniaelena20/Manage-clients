@@ -1,0 +1,76 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.0.6">
+  <diagram name="Page-1" id="2CYN_gotQ_4WIx3VTyR_">
+    <mxGraphModel dx="1025" dy="417" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="FowHevnWw9AVko0uYjDY-1" value="Model" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="360" y="40" width="110" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="FowHevnWw9AVko0uYjDY-2" value="businessLayer" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="90" y="210" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FowHevnWw9AVko0uYjDY-3" value="dataAccesLayer" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="360" y="290" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FowHevnWw9AVko0uYjDY-4" value="presentation" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="630" y="100" width="130" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="FowHevnWw9AVko0uYjDY-5" value="Contains the implementation of:Bill, Client, Order , Productg" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="210" y="30" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FowHevnWw9AVko0uYjDY-6" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0;exitDx=110;exitDy=25.5;exitPerimeter=0;entryX=0.439;entryY=1.029;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="FowHevnWw9AVko0uYjDY-2" target="FowHevnWw9AVko0uYjDY-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="250" as="sourcePoint" />
+            <mxPoint x="450" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FowHevnWw9AVko0uYjDY-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.546;exitY=0.211;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.591;entryY=1.038;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="FowHevnWw9AVko0uYjDY-3" target="FowHevnWw9AVko0uYjDY-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="250" as="sourcePoint" />
+            <mxPoint x="450" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FowHevnWw9AVko0uYjDY-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0;exitDx=0;exitDy=52;exitPerimeter=0;entryX=0;entryY=0;entryDx=110;entryDy=70;entryPerimeter=0;" edge="1" parent="1" source="FowHevnWw9AVko0uYjDY-4" target="FowHevnWw9AVko0uYjDY-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="250" as="sourcePoint" />
+            <mxPoint x="450" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FowHevnWw9AVko0uYjDY-9" value="Contains the implementation of:clientBLL, orderBL, productBLL" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="130" width="170" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FowHevnWw9AVko0uYjDY-10" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.551;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0;entryDx=75;entryDy=14;entryPerimeter=0;" edge="1" parent="1" source="FowHevnWw9AVko0uYjDY-9" target="FowHevnWw9AVko0uYjDY-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="250" as="sourcePoint" />
+            <mxPoint x="450" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FowHevnWw9AVko0uYjDY-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=56;entryPerimeter=0;" edge="1" parent="1" source="FowHevnWw9AVko0uYjDY-5" target="FowHevnWw9AVko0uYjDY-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="250" as="sourcePoint" />
+            <mxPoint x="450" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FowHevnWw9AVko0uYjDY-12" value="Contains the implementation of:AbstractDAO, ClientDAO, ConnectionFactory, LogDAO, OrderDAO,ProductDAO" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="150" y="340" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="FowHevnWw9AVko0uYjDY-13" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="FowHevnWw9AVko0uYjDY-12" target="FowHevnWw9AVko0uYjDY-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="260" as="sourcePoint" />
+            <mxPoint x="450" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FowHevnWw9AVko0uYjDY-14" value="Contains the implementation of:ClientWindow, Main,OrderWindow, ProductWindow,&amp;nbsp; TableUtility" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="660" y="250" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="FowHevnWw9AVko0uYjDY-15" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.002;exitY=0.156;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.085;entryY=1.03;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="FowHevnWw9AVko0uYjDY-14" target="FowHevnWw9AVko0uYjDY-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="260" as="sourcePoint" />
+            <mxPoint x="450" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
